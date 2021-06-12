@@ -14,10 +14,9 @@ public class Jedi {
     }
 
     public Jedi(String name, String lastName) {
-        this.setName(name);
-        this.setLastName(lastName);
+        this.name = name;
+        this.lastName = lastName;
     }
-
 
     public String getName() {
         return name;

@@ -43,6 +43,8 @@ public class JediController {
         };
         repository.add(jedi);
         redirect.addFlashAttribute("message", "Jedi cadastrado com sucesso");
+
+        //redireciona para o metodo @GetMapping("/jedi")
         return "redirect:jedi";
     }
 
